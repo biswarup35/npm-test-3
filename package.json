@@ -11,16 +11,24 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commit": "git-cz"
   },
   "devDependencies": {
+    "commitizen": "^4.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.0",
     "prettier": "latest",
-    "turbo": "latest",
-    "husky": "^7.0.0"
+    "turbo": "latest"
   },
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "yarn@1.22.17"
+  "packageManager": "yarn@1.22.17",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
