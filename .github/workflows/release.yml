@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   release:
     name: Release
@@ -18,8 +18,9 @@ jobs:
           node-version: 'lts/*'
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Release
+      - name: Change directory
         run: cd packages/ui
+      - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
