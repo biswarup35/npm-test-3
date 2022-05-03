@@ -1,0 +1,9 @@
+{
+    "release": [
+        {
+            "name": "alpha",
+            "channel": "alpha",
+            "prerelease": true
+        }
+    ]
+}

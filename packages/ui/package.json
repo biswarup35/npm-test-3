@@ -23,11 +23,6 @@
     "registry": "https://registry.npmjs.org/",
     "tag": "alpha"
   },
-  "release": {
-    "branches": [
-      "main"
-    ]
-  },
   "scripts": {
     "semantic-release": "semantic-release"
   }
