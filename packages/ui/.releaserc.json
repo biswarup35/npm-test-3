@@ -1,9 +1,5 @@
 {
     "release": [
-        {
-            "name": "main",
-            "channel": "alpha",
-            "prerelease": true
-        }
+        "main"
     ]
 }
