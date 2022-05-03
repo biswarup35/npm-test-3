@@ -1,7 +1,7 @@
 {
     "release": [
         {
-            "name": "alpha",
+            "name": "main",
             "channel": "alpha",
             "prerelease": true
         }
