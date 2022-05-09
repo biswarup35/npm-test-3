@@ -24,6 +24,7 @@
     "tag": "alpha"
   },
   "scripts": {
-    "semantic-release": "semantic-release"
+    "release": "semantic-release",
+    "build": "tsc"
   }
 }

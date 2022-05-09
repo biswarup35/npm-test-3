@@ -18,8 +18,10 @@ jobs:
           node-version: "lts/*"
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      - name: Release
-        run: cd packages/ui && npx semantic-release
+      - name: "Build"
+        run: yarn turbo run build --filter=@biswarup35/ui
+      - name: "Publish"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: yarn turbo run publish --filter=@biswarup35/ui
