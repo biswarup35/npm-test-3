@@ -1,4 +1,6 @@
 import * as React from "react";
-export const Chips: React.FC<{}> = (props) => {
+export const Chips: React.FC<{
+  shape?: "rounded" | "square";
+}> = (props) => {
   return <button {...props} />;
 };
