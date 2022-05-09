@@ -2,8 +2,18 @@
     "branches": [
         {
             "name": "main",
-            "channel": "alpha"
+            "channel": "alpha",
+            "prerelease": true
         }
     ],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/npm",
+        "@semantic-release/git",
+        "@semantic-release/github"
+    ],
+    "preset": "angular",
     "repositoryUrl": "https://github.com/biswarup35/npm-test-3.git"
 }
