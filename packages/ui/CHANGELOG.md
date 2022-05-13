@@ -1,3 +1,11 @@
+# [1.4.0-canary.1](https://github.com/biswarup35/npm-test-3/compare/v1.3.0...v1.4.0-canary.1) (2022-05-13)
+
+
+### Features
+
+* **button:** add ability to change size ([79f3a8c](https://github.com/biswarup35/npm-test-3/commit/79f3a8c204b2fb618b7730bf8f980f004b8bf90e))
+* **chips:** add ability to change size ([2adb394](https://github.com/biswarup35/npm-test-3/commit/2adb394bc78e7f8540ac7eae95db6185e4872346))
+
 # [1.4.0-alpha.1](https://github.com/biswarup35/npm-test-3/compare/v1.3.0...v1.4.0-alpha.1) (2022-05-09)
 
 
