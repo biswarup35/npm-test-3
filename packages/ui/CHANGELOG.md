@@ -1,3 +1,19 @@
+# [1.4.0-sparrow.1](https://github.com/biswarup35/npm-test-3/compare/v1.4.0-alpha.1...v1.4.0-sparrow.1) (2022-05-14)
+
+
+### Bug Fixes
+
+* **button:** replaced auto generated variant name to actual variants ([13e6a5f](https://github.com/biswarup35/npm-test-3/commit/13e6a5f2b022349e57b2d7d9872602f72195a6a5))
+
+
+### Features
+
+* **button:** add color prop ([47f52a9](https://github.com/biswarup35/npm-test-3/commit/47f52a916dc79ac06f2c0e2406651b4bcbf19067))
+* **chips:** add ability to change size ([2adb394](https://github.com/biswarup35/npm-test-3/commit/2adb394bc78e7f8540ac7eae95db6185e4872346))
+* **chips:** add color prop ([b652026](https://github.com/biswarup35/npm-test-3/commit/b652026567dfcd8dee4d9d602358d0a1badf3cf5))
+* **chips:** add default props ([ccd7627](https://github.com/biswarup35/npm-test-3/commit/ccd76276918cb0abd79a2d95a0dfde91343dad7a))
+* **chips:** add icon support ([5548dd4](https://github.com/biswarup35/npm-test-3/commit/5548dd4b70d437d43e1fc01aef236334a74d1e60))
+
 # [1.4.0-canary.3](https://github.com/biswarup35/npm-test-3/compare/v1.4.0-canary.2...v1.4.0-canary.3) (2022-05-14)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@biswarup35/ui",
-  "version": "1.4.0-canary.3",
+  "version": "1.4.0-sparrow.1",
   "main": "./index.tsx",
   "types": "./index.tsx",
   "license": "MIT",
