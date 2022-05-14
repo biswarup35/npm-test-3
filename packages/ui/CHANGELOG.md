@@ -1,3 +1,10 @@
+# [1.4.0-canary.2](https://github.com/biswarup35/npm-test-3/compare/v1.4.0-canary.1...v1.4.0-canary.2) (2022-05-14)
+
+
+### Features
+
+* **button:** add color prop ([47f52a9](https://github.com/biswarup35/npm-test-3/commit/47f52a916dc79ac06f2c0e2406651b4bcbf19067))
+
 # [1.4.0-canary.1](https://github.com/biswarup35/npm-test-3/compare/v1.3.0...v1.4.0-canary.1) (2022-05-14)
 
 
