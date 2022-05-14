@@ -7,7 +7,7 @@
         },
         {
             "name": "canary",
-            "channel": "canary",
+            "channel": "beta",
             "prerelease": true
         }
     ],
